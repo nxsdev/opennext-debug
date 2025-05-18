@@ -1,4 +1,4 @@
-'use cache';
+// 'use cache';
 
 import React from 'react';
 import { getSections } from '#/app/_internal/data';

@@ -1,4 +1,4 @@
-'use cache';
+// 'use cache';
 
 import { getProductsBySection, getSectionBySlug } from '#/app/_internal/data';
 import { Boundary } from '#/ui/boundary';

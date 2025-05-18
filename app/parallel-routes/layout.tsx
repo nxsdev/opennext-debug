@@ -1,4 +1,4 @@
-'use cache';
+// 'use cache';
 
 import { getDemoMeta } from '#/app/_internal/demos';
 import { Boundary } from '#/ui/boundary';

@@ -1,4 +1,4 @@
-'use cache';
+// 'use cache';
 
 import { notFound } from 'next/navigation';
 import { getDemoMeta } from '#/app/_internal/demos';

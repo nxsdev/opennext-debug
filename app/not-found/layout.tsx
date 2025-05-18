@@ -1,4 +1,4 @@
-'use cache';
+// 'use cache';
 
 import { getSections } from '#/app/_internal/data';
 import { getDemoMeta } from '#/app/_internal/demos';

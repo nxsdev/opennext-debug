@@ -8,7 +8,7 @@ export default async function Page({
 }: {
   params: Promise<{ section: string; category: string }>;
 }) {
-  'use cache';
+  // 'use cache';
 
   const { category: categorySlug } = await params;
   const category = getCategoryBySlug(categorySlug);

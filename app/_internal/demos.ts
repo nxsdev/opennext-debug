@@ -67,30 +67,30 @@ export const navigation = [
   //     },
   //   ],
   // },
-  {
-    name: 'Caching',
-    items: [
-      {
-        slug: 'cacheable-routes',
-        name: 'Cacheable Route Segments',
-        nav_title: 'Route Segments',
-        description: 'Cache the rendered output of an entire route segment',
-      },
-      {
-        slug: 'cacheable-components',
-        name: 'Cacheable React Server Components',
-        nav_title: 'Components',
-        description:
-          'Cache the rendered output of an individual React Server Component',
-      },
-      {
-        slug: 'cacheable-functions',
-        name: 'Cacheable Functions',
-        nav_title: 'Functions',
-        description: 'Cache the computed result of a regular function',
-      },
-    ],
-  },
+  // {
+  //   name: 'Caching',
+  //   items: [
+  //     {
+  //       slug: 'cacheable-routes',
+  //       name: 'Cacheable Route Segments',
+  //       nav_title: 'Route Segments',
+  //       description: 'Cache the rendered output of an entire route segment',
+  //     },
+  //     {
+  //       slug: 'cacheable-components',
+  //       name: 'Cacheable React Server Components',
+  //       nav_title: 'Components',
+  //       description:
+  //         'Cache the rendered output of an individual React Server Component',
+  //     },
+  //     {
+  //       slug: 'cacheable-functions',
+  //       name: 'Cacheable Functions',
+  //       nav_title: 'Functions',
+  //       description: 'Cache the computed result of a regular function',
+  //     },
+  //   ],
+  // },
   {
     name: 'APIs',
     items: [
