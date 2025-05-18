@@ -13,7 +13,6 @@ const nextConfig = {
     useCache: true,
     clientSegmentCache: true,
     viewTransition: true,
-    ppr: true,
   },
 } satisfies NextConfig;
 
@@ -29,6 +28,3 @@ const withMDX = createMDX({
 });
 
 export default withMDX(nextConfig);
-
-import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
-initOpenNextCloudflareForDev();
