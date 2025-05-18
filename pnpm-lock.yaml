@@ -21,8 +21,8 @@ importers:
         specifier: 15.3.2
         version: 15.3.2(@mdx-js/loader@3.1.0(acorn@8.14.1))(@mdx-js/react@3.1.0(@types/react@19.1.2)(react@19.1.0))
       '@opennextjs/cloudflare':
-        specifier: 1.0.3
-        version: 1.0.3(wrangler@4.14.4)
+        specifier: 0.6.0
+        version: 0.6.0(wrangler@4.14.4)
       '@types/mdx':
         specifier: 2.0.13
         version: 2.0.13
@@ -1166,15 +1166,16 @@ packages:
     resolution: {integrity: sha512-csY4qcR7jUwiZmkreNTJhcypQfts2aY2CK+a+rXgXUImZiZiySh0FvwHjRnlqWKvg+y6ae9lHFzDRjBTmqlTIQ==}
     engines: {node: '>=16.0.0'}
 
-  '@opennextjs/aws@3.6.1':
-    resolution: {integrity: sha512-RYU9K58vEUPXqc3pZO6kr9vBy1MmJZFQZLe0oXBskC005oGju/m4e3DCCP4eZ/Q/HdYQXCoqNXgSGi8VCAYgew==}
+  '@opennextjs/aws@https://pkg.pr.new/@opennextjs/aws@798':
+    resolution: {tarball: https://pkg.pr.new/@opennextjs/aws@798}
+    version: 3.5.3
     hasBin: true
 
-  '@opennextjs/cloudflare@1.0.3':
-    resolution: {integrity: sha512-+SNhz2JmKkMlWzndTSYZeq0eseAPfEXUUYJA7H9MkgFe36i1no0OdiLuwu9e4uR3yuOzaNWB+skCYHsD6Im9nA==}
+  '@opennextjs/cloudflare@0.6.0':
+    resolution: {integrity: sha512-cDjwYwOIqLR3DjhB7PkQ1ImaKMSdKySQnD9+qYmhL/3MYxFtBT//CS5tzD9W7/crWRyY+VioqkhsErzK79/u7g==}
     hasBin: true
     peerDependencies:
-      wrangler: ^4.14.0
+      wrangler: ^3.114.1 || ^4.0.0
 
   '@smithy/abort-controller@2.2.0':
     resolution: {integrity: sha512-wRlta7GuLWpTqtFfGo+nZyOO1vEvewdNR1R4rTxpC8XU6vG/NDyrFBhwLZsqg1NUoR1noVaXJPC/7ZK47QCySw==}
@@ -2915,9 +2916,6 @@ packages:
   trough@2.2.0:
     resolution: {integrity: sha512-tmMpK00BjZiUyVyvrBK7knerNgmgvcV/KLVyuma/SC+TQN167GrMRciANTz09+k3zW8L8t60jWO1GpfkZdjTaw==}
 
-  ts-tqdm@0.8.6:
-    resolution: {integrity: sha512-3X3M1PZcHtgQbnwizL+xU8CAgbYbeLHrrDwL9xxcZZrV5J+e7loJm1XrXozHjSkl44J0Zg0SgA8rXbh83kCkcQ==}
-
   tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
 
@@ -4586,7 +4584,7 @@ snapshots:
     dependencies:
       gzip-size: 6.0.0
 
-  '@opennextjs/aws@3.6.1':
+  '@opennextjs/aws@https://pkg.pr.new/@opennextjs/aws@798':
     dependencies:
       '@ast-grep/napi': 0.35.0
       '@aws-sdk/client-cloudfront': 3.398.0
@@ -4608,13 +4606,12 @@ snapshots:
       - aws-crt
       - supports-color
 
-  '@opennextjs/cloudflare@1.0.3(wrangler@4.14.4)':
+  '@opennextjs/cloudflare@0.6.0(wrangler@4.14.4)':
     dependencies:
       '@dotenvx/dotenvx': 1.31.0
-      '@opennextjs/aws': 3.6.1
+      '@opennextjs/aws': https://pkg.pr.new/@opennextjs/aws@798
       enquirer: 2.4.1
       glob: 11.0.2
-      ts-tqdm: 0.8.6
       wrangler: 4.14.4
     transitivePeerDependencies:
       - aws-crt
@@ -6804,8 +6801,6 @@ snapshots:
   trim-lines@3.0.1: {}
 
   trough@2.2.0: {}
-
-  ts-tqdm@0.8.6: {}
 
   tslib@1.14.1: {}
 
